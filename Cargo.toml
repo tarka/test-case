@@ -20,6 +20,10 @@ doctest    = false
 proc-macro = true
 path       = "src/lib.rs"
 
+[features]
+default = []
+allow_result = []
+
 [dependencies]
 cfg-if           = "1.0"
 proc-macro2      = { version = "1.0", features = [] }
